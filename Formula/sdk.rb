@@ -6,24 +6,24 @@ class Sdk < Formula
   on_macos do
     on_arm do
       url "https://github.com/Denxuan/sdk/releases/download/0.0.1/sdk_#{version}_darwin_arm64.tar.gz"
-      sha256 "9872998e2a179b9b130233534dee61bf0c4bbd22f2b0be680d4f0045f30bdf80"
+      sha256 "6e4862f6549e4c50b1873e58c870cafa1caf6b47c7c014961db1c75a41c99a11"
     end
 
     on_intel do
       url "https://github.com/Denxuan/sdk/releases/download/0.0.1/sdk_#{version}_darwin_amd64.tar.gz"
-      sha256 "60a92ac4e4ddb1a2ee51203d0e81b576f918a593f15e25b7c719a3869f3e4e1a"
+      sha256 "93caadc7bffc6576bb9a5382f2c66dab17fe62817ee65c91e16bb54434445e80"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Denxuan/sdk/releases/download/0.0.1/sdk_#{version}_linux_arm64.tar.gz"
-      sha256 "2ffa743dc457add58c9f1df9393ac2d1b47ca639df596074bf6054f0bea6d679"
+      sha256 "1ccf7ad8cc69b64aa66a294588be2b20140a5324eb4f0526ed4a025464f38f2d"
     end
 
     on_intel do
       url "https://github.com/Denxuan/sdk/releases/download/0.0.1/sdk_#{version}_linux_amd64.tar.gz"
-      sha256 "509626d8e178efa1f8edea5d0a8ed362f8120041017598e3ac39c6b7c39a4166"
+      sha256 "c283c41fcb3d92afe2691db4024cb63ee0fca3c104c66bd3fddd02e3866fc911"
     end
   end
 
