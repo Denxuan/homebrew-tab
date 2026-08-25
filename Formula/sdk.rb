@@ -1,29 +1,29 @@
 class Sdk < Formula
   desc "Development tool version manager for Java, Maven, Maven mvnd, Gradle, Go, and Node.js"
   homepage "https://github.com/Denxuan/sdk"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/Denxuan/sdk/releases/download/0.1.2/sdk_#{version}_darwin_arm64.tar.gz"
-      sha256 "781e31421faf991b83a652e06e714975fedeba505f165c8ecc4b3c026ce3efe8"
+      url "https://github.com/Denxuan/sdk/releases/download/0.1.3/sdk_#{version}_darwin_arm64.tar.gz"
+      sha256 "4c3ce3e0e5a4b2c701fe4e0ff364f9332e0ff8497e0b18d63737b038c5fd7019"
     end
 
     on_intel do
-      url "https://github.com/Denxuan/sdk/releases/download/0.1.2/sdk_#{version}_darwin_amd64.tar.gz"
-      sha256 "384cdbf8865381f693a03de11e9d89b355e35de02699fefdc2dd032e35a97ae2"
+      url "https://github.com/Denxuan/sdk/releases/download/0.1.3/sdk_#{version}_darwin_amd64.tar.gz"
+      sha256 "4d32349fe3fbb8aabfa7566c5a8f9ecbdbd2d9625d088ad6d3ee753927da8a4a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Denxuan/sdk/releases/download/0.1.2/sdk_#{version}_linux_arm64.tar.gz"
-      sha256 "c6dfe916e89a5439b2c5f0f0844cca9e57fc8e14d2ff4f26d0e8c05fb1533ae5"
+      url "https://github.com/Denxuan/sdk/releases/download/0.1.3/sdk_#{version}_linux_arm64.tar.gz"
+      sha256 "d76978870f92a1a4b72e9e600ffb75f2cc081c3e92dcd56970b91879632cd89a"
     end
 
     on_intel do
-      url "https://github.com/Denxuan/sdk/releases/download/0.1.2/sdk_#{version}_linux_amd64.tar.gz"
-      sha256 "877828b2a47f1b6800e32f616e37fe31b2ab8751d4572ce2b50a340df2c45e4d"
+      url "https://github.com/Denxuan/sdk/releases/download/0.1.3/sdk_#{version}_linux_amd64.tar.gz"
+      sha256 "fbace9017672442de4223251663f2335f44efbb0b7d12782afb1fe5ed07423e2"
     end
   end
 
