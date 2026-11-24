@@ -1,6 +1,6 @@
 cask "pixo" do
-  version "0.1.28"
-  sha256 "8ce3cc70bd1732c2379f55c90e85cbf8af1bfe9afbe0eafd4391039ce836c23a"
+  version "0.1.29"
+  sha256 "9ef7df96e8c78b8f0920a688f0a225e12ca16eeccc5bb7bdf9db0df096aa955d"
 
   url "https://github.com/Denxuan/Pixo/releases/download/v#{version}/pixo-macos-universal.dmg"
   name "Pixo"
